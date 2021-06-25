@@ -1,0 +1,52 @@
+#topbar {
+  background: #191919;
+  font-size: 15px;
+  height: 40px;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.6);
+
+  .contact-info {
+    a {
+      line-height: 0;
+      color: rgba(255, 255, 255, 0.6);
+      transition: 0.3s;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    i {
+      color: #ff0066;
+      line-height: 0;
+      margin-right: 5px;
+    }
+
+    .phone-icon {
+      margin-left: 15px;
+    }
+
+  }
+
+  .social-links {
+    a {
+      color: #ff0066;
+      padding: 4px 12px;
+      display: inline-block;
+      line-height: 1px;
+      transition: 0.3s;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+
+}
+
+@media only screen and (min-width:0px) and (max-width:450px) {
+  #topbar {
+    display: none !important;
+  }
+}
